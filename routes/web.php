@@ -24,3 +24,5 @@ Route::get('/notify','App\Http\Controllers\UserController@notify_con');
 Route::get('/show','App\Http\Controllers\UserController@show_con');
 Route::get('/getUserInfo','App\Http\Controllers\UserController@get_user_info');
 Route::get('/getRedisList','App\Http\Controllers\UserController@redis_test');
+
+Route::get('/testenv','App\Http\Controllers\UserController@testenv');

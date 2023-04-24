@@ -16,6 +16,10 @@ class UserController extends Controller
 {
     use Notifiable;
 
+    public function testenv(){
+        dd(env('APP_ENV'));
+    }
+
 
     public function insertUser(){
         echo 222;
